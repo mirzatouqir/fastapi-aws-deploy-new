@@ -1,10 +1,8 @@
 version: 1.0
 runtime: docker
-
 build:
   dockerfilePath: Dockerfile
   context: .
-
 run:
   network:
     port: 8080
